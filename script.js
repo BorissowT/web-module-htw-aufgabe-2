@@ -4,8 +4,12 @@ document.onload = searchByTitle();
 
 function searchByTitle(){
     var title = $("#searchArea").val();
-    
+    clearPrevResults();
     showFilms(title);
+}
+
+function clearPrevResults(){
+  $("#result-box").empty();
 }
 
 function showFilms(searchParam){
