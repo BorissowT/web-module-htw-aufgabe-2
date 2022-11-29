@@ -5,84 +5,14 @@
     padding-bottom: 5em;
   }
   
-  .tab {
-    border: 1px solid rgb(104, 100, 100);
-    border-radius: 15px 15px 0px 0px;
-    width: 6em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
-    margin-right: 0.3em;
-    background-color: #eeeeee;
-  }
-  .tab:hover{
-    background-color: white;
-  }
-  .tab_chosen{
-    background-color: white;
-  }
-  .tabs_menu {
-    margin-top: 1em;
-    height: 3em;
-  }
-  
+
   .title{
     margin-left: 4em;
     margin-bottom: 1em;
   }
-  .item{
-    height: 2em;
-    width: auto;
-    padding: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #f8f9fa;
-    border: 1px solid rgb(104, 100, 100);
-    border-radius: 10px;
-    text-align: center;
-    margin: 0.2em;
-    cursor: pointer;
-  }
-  .item:hover{
-    background-color: rgb(184, 117, 117);
-  }
-  .suggestion{
-    height: 2em;
-    width: auto;
-    padding: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #f8f9fa;
-    border: 1px solid rgb(104, 100, 100);
-    border-radius: 10px;
-    text-align: center;
-    margin: 0.2em;
-    cursor: pointer;
-  }
-  
-  .suggestion:hover{
-  background-color: rgb(105, 136, 105)  ;
-  }
-  
-  #getMoreTags{
-    font-size: small;
-    opacity: 0.8;
-  }
-  
-  #getPlaylistBtn{
-    width: 20em;
-  }
-  
   .carousel{
     width: 25%;
     height: 15em;
-  }
-  
-  .result_podcasts{
-    padding-right: 5%;
-    padding-left: 5%;
-    
   }
   
   .carousel-control-prev{
@@ -97,17 +27,6 @@
     border-radius: 10px;
   }
   
-  .description_area{
-    height: 100%;
-    width: 100%;
-    margin-left: 3em;
-    padding-bottom: 2em;
-  }
-  
-  .podcast_description{
-    margin-left: 1em;
-    font-size: 15px;
-  }
   .movie-box{
     margin-left: 5%;
   }
@@ -125,23 +44,11 @@
     margin-bottom: 10px;
   }
   
-  .podcast_keywords{
-    word-break: break-all
-  }
   
   h6{
     font-style: italic;
   }
-  
-  .get_description{
-    height: 2em;
-    width: 7em;
-    border-radius: 10px;
-    border: 1px solid rgb(104, 100, 100);
-  }
-  .get_description:hover{
-    opacity: 0.5;
-  }
+
   
   .detailsButton{
     height: 2em;
@@ -152,18 +59,6 @@
     color: rgb(70, 68, 68);
   }
   
-  .getElseButton:hover{
-    opacity: 0.5;
-  }
-  
-  .else_podcasts{
-    font-style: italic;
-  }
-  
-  .else_picture{
-    border-radius: 10px;
-  }
-
   .details_container{
     align-items: center;
     justify-content: left;
